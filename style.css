@@ -124,7 +124,7 @@ article p:last-child {
     background-size: cover;
     padding-top: 47px;
     padding-bottom: 45px;
-    padding-left: 93px;
+    padding-left: 90px;
     margin-bottom: 55px;
     box-shadow: 0 5px 1px rgb(206, 206, 206);
 }
@@ -141,6 +141,13 @@ article p:last-child {
     font-size: 22px;
     line-height: 32px;
     vertical-align: top;
+    list-style-image: url('./assets/bullet-icon2.jpg');
+    list-style-position: outside;
+}
+
+.strike {
+    list-style-image: url('./assets/bullet-icon1.jpg');
+    text-decoration: line-through;
 }
 
 #recipe ul:last-child {
