@@ -169,3 +169,20 @@ article p:last-child {
     text-transform: uppercase;
     margin-top: 12px;
 }
+
+.hr {
+    position: relative;
+    margin-top: 100px;
+    background-color: #eeeeee;
+    height: 2px;
+}
+
+.hr img {
+    background-color: white;
+    width: 33px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -22px;
+    padding: 5px;
+}
