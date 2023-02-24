@@ -31,7 +31,7 @@ header {
 }
 
 #brand-logo span:nth-last-child(1) {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
     font-size: 12px;
     line-height: 24px;
     text-transform: uppercase;
@@ -53,7 +53,7 @@ header {
     margin-right: 0;
 }
 
-#slash-hr {
+.slash-hr {
     width: 100%;
     height: 13px;
     background-image: repeating-linear-gradient(
@@ -76,20 +76,21 @@ article h1 {
 }
 
 #article-meta {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
     margin-top: 5px;
 }
 
 #print, #print-icon {
     float: right;
-    vertical-align: middle;
 }
 
 #print-icon {
     width: 14px;
+    height: auto;
     margin-right: 2px;
+    padding-top: 2px;
 }
 
 #main-image {
@@ -98,11 +99,44 @@ article h1 {
 
 #main-image img {
     width: 100%;
+    margin-bottom: 28px;
 }
 
 article p {
+    font-family: 'Franklin Gothic Medium', 'Times New Roman', serif;
     font-size: 20px;
-    margin-top: 28px;
-    line-height: 28px;
+    margin-bottom: 36px;
+    line-height: 26px;
     text-indent: 33px;
+}
+
+article p:last-child {
+    margin-bottom: 28px;
+}
+
+#recipe {
+    background-image: url('./assets/list-bg.png');
+    background-size: cover;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 95px;
+    margin-bottom: 55px;
+    box-shadow: 0 5px 1px rgb(206, 206, 206);
+}
+
+.center {
+    margin: 0 auto;
+}
+
+#recipe ul {
+    max-width: 400px;
+    display: inline-block;
+    font-family: 'Comic Sans MS', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    vertical-align: top;
+}
+
+#recipe ul:last-child {
+    padding-left: 190px;
 }
