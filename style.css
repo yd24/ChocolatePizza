@@ -31,7 +31,9 @@ header {
 }
 
 #brand-logo span:nth-last-child(1) {
-    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 24px;
     text-transform: uppercase;
 }
 
@@ -61,5 +63,46 @@ header {
         transparent 1px,
         transparent 3px
     );
-    margin-top: 34px;
+    margin-top: 25px;
+}
+
+main {
+    margin-top: 60px;
+}
+
+article h1 {
+    font-size: 40px;
+    font-family: Impact, Helvetica, sans-serif;
+}
+
+#article-meta {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 5px;
+}
+
+#print, #print-icon {
+    float: right;
+    vertical-align: middle;
+}
+
+#print-icon {
+    width: 14px;
+    margin-right: 2px;
+}
+
+#main-image {
+    margin-top: 30px;
+}
+
+#main-image img {
+    width: 100%;
+}
+
+article p {
+    font-size: 20px;
+    margin-top: 28px;
+    line-height: 28px;
+    text-indent: 33px;
 }
