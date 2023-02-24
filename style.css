@@ -14,9 +14,9 @@ header {
 
 #logo-img {
     float: left;
-    width: 48px;
+    width: 46px;
     height: auto;
-    margin-right: 10px;
+    margin-right: 5px;
 }
 
 #brand-logo span {
@@ -24,17 +24,20 @@ header {
 }
 
 #brand-logo span:nth-last-child(2) {
+    font-family: 'Yellowtail', cursive;
     font-weight: bold;
-    font-size: 36px;
-    line-height: 24px;
-    padding-top: 10px;
+    font-size: 44px;
+    line-height: 26px;
+    padding-top: 6px;
 }
 
 #brand-logo span:nth-last-child(1) {
-    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    color: #969696;
+    font-family: 'Oswald', Helvetica, sans-serif;
     font-size: 12px;
     line-height: 24px;
     text-transform: uppercase;
+    padding-left: 58px;
 }
 
 .socials {
@@ -58,12 +61,12 @@ header {
     height: 13px;
     background-image: repeating-linear-gradient(
         45deg,
-        black 0px,
-        black 1px,
+        #969696 0px,
+        #969696 1px,
         transparent 1px,
         transparent 3px
     );
-    margin-top: 25px;
+    margin-top: 27px;
 }
 
 main {
@@ -76,10 +79,11 @@ article h1 {
 }
 
 #article-meta {
-    font-family: 'Arial Narrow', Helvetica, sans-serif;
+    color: #969696;
+    font-family: 'Oswald', Helvetica, sans-serif;
     font-size: 14px;
     text-transform: uppercase;
-    margin-top: 5px;
+    margin-top: 2px;
 }
 
 #print, #print-icon {
@@ -87,14 +91,14 @@ article h1 {
 }
 
 #print-icon {
-    width: 14px;
+    width: 15px;
     height: auto;
     margin-right: 2px;
-    padding-top: 2px;
+    padding-top: 5px;
 }
 
 #main-image {
-    margin-top: 30px;
+    margin-top: 28px;
 }
 
 #main-image img {
@@ -103,7 +107,8 @@ article h1 {
 }
 
 article p {
-    font-family: 'Franklin Gothic Medium', 'Times New Roman', serif;
+    color: #969696;
+    font-family: 'Times New Roman', serif;
     font-size: 20px;
     margin-bottom: 36px;
     line-height: 26px;
@@ -117,9 +122,9 @@ article p:last-child {
 #recipe {
     background-image: url('./assets/list-bg.png');
     background-size: cover;
-    padding-top: 45px;
+    padding-top: 47px;
     padding-bottom: 45px;
-    padding-left: 95px;
+    padding-left: 93px;
     margin-bottom: 55px;
     box-shadow: 0 5px 1px rgb(206, 206, 206);
 }
@@ -129,16 +134,17 @@ article p:last-child {
 }
 
 #recipe ul {
+    color: #705e3c;
     max-width: 400px;
     display: inline-block;
-    font-family: 'Comic Sans MS', sans-serif;
+    font-family: 'Shantell Sans', sans-serif;
     font-size: 22px;
     line-height: 32px;
     vertical-align: top;
 }
 
 #recipe ul:last-child {
-    padding-left: 190px;
+    padding-left: 178px;
 }
 
 #article-footer {
@@ -153,24 +159,30 @@ article p:last-child {
 }
 
 #article-footer h2 {
+    color: #4a4a4a;
     margin-bottom: 10px;
 }
 
 #article-footer p {
+    color: #969696;
     width: 700px;
     text-indent: 0;
 }
 
 #article-footer button {
+    color: white;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    background-color: #d8613c;
     float: right;
-    padding: 16px 32px;
+    padding: 12px 50px;
     border: 0;
-    font-size: 18px;
+    font-size: 20px;
     text-transform: uppercase;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .hr {
+    color: #969696;
     position: relative;
     margin-top: 100px;
     background-color: #eeeeee;
@@ -185,4 +197,15 @@ article p:last-child {
     transform: translateX(-50%);
     top: -22px;
     padding: 5px;
+}
+
+footer {
+    padding: 50px 0;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+footer p {
+    color: #969696;
+    text-align: center;
 }
