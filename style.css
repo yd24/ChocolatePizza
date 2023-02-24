@@ -8,6 +8,8 @@
     margin: 0 auto;
 }
 
+/** Header and Navigation **/
+
 header {
     padding-top: 35px;
 }
@@ -68,6 +70,8 @@ header {
     );
     margin-top: 27px;
 }
+
+/** Article **/
 
 main {
     margin-top: 60px;
@@ -205,6 +209,8 @@ article p:last-child {
     top: -22px;
     padding: 5px;
 }
+
+/** Footer **/
 
 footer {
     padding: 50px 0;
